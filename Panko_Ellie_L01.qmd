@@ -1,8 +1,8 @@
 ---
 title: "L01 Review"
 subtitle: "Data Science 3 with R (STAT 301-3)"
-author: "YOUR NAME"
-pagetitle: "L01 YOUR NAME"
+author: "Ellie Panko"
+pagetitle: "L01 Ellie Panko"
 date: today
 
 format:
@@ -28,7 +28,7 @@ citation-location: margin
 
 To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
 
-[https://your-github-repo-url](https://your-github-repo-url)
+[Ellie's Github](https://github.com/stat301-3-2026-spring/l01-review-epanko.git)
 :::
 
 ## Overview
@@ -191,7 +191,7 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+battling overfitting. 
 
 :::
 
@@ -202,7 +202,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+when data is smaller. when we have folding issue
 
 :::
 
