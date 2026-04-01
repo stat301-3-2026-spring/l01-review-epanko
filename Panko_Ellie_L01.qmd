@@ -46,7 +46,7 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+- 
 
 :::
 
@@ -57,7 +57,13 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Whether you have a target variable. 
+
+- In unsupervised you do not have a target variable you just have a lot of variables and want to know information from the data as a whole. You do not have a target variable that supervises the data. 
+
+- In supervises you are supervising the data using outcome variables that is supervising the data. you have a reason for picking a specific model
+
+One has a target variable. We are trying to predict something. Unsupervised data can be taken and put into supervised process.
 
 :::
 
@@ -70,7 +76,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+- trying to understand the data. We are using a form to show linear non linear. Describes relationships in the data through modeling. Linear models are used a lot. Parametric models are good at this. Summarize with a single value. 
 
 :::
 
@@ -79,7 +85,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+- explain the how and the why of a relationship. Want to infer if a variable is statistically related to the target variable. Want to see if what we are seeing can generalize or point to a causal relationship. Want to know if something works. Want to know what inputs effect the outcome. Parametric models good at this. 
 
 :::
 
@@ -88,7 +94,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+- Want to predict our target the best we can. We do not care how we make the prediction. We cannot make a theory for why when we put these things in they make the best model. We just put everything in to try and get the best model. Good for when we do not care how we got prediction just want a good prediciton. 
 
 :::
 
@@ -103,7 +109,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Explainable models. Laden with assumptions. not done by data, done by assumptions. Parametric informed. Can be helpful. reduces data needed. 
 
 :::
 
@@ -114,7 +120,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Data driven models. More flexable models. Do not add much for assumptions we let the data make the choices.
 
 :::
 
