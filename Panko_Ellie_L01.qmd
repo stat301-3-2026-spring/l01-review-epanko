@@ -120,7 +120,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Data driven models. More flexable models. Do not add much for assumptions we let the data make the choices.
+Data driven models. More flexible models. Do not add much for assumptions we let the data make the choices.
 
 :::
 
@@ -174,8 +174,9 @@ Explain the difference between a regression and classification machine learning 
 
 ::: {.callout-tip icon="false"}
 ## Solution
+A regression machine learning problem is a problem that deals with a target variable that is continuous and numerical. When making our models, we are predicting a numerical value and our predictions can be any number that the value could take. An example of this problem would be predicting house prices based on factors. 
 
-YOUR SOLUTION HERE
+A classification machine learning problem is a problem that deals with a target variable that is categorical and has set levels. When making our models, we are predicting which class in our target variable the observation will be. An example of this problem could be predicting if a patient will or will not get COVID based on factors.
 
 :::
 
@@ -186,7 +187,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+When splitting the data, it is useful to stratify by the outcome or target variable to ensure that the variable is being properly represented in each split. When we stratify the data by the target variable, we ensure that each split has the same proportion of the target variable as the original dataset. This is important to ensuring that both our test data and training data are good representations of our original data and can be used to make predictions for the target variable. If the test and train datasets do not maintain the same split, we may be unable to make a model that will be accurate for our target variable and it will not be accurate with new data.  
 
 :::
 
@@ -208,7 +209,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-when data is smaller. when we have folding issue
+when data is smaller. when we have folding issue.
 
 :::
 
@@ -219,7 +220,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Model tuning is adjusting hyperparameters to create models that are resonably able to be run with the best accuracy. 
 
 :::
 
@@ -230,7 +231,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+The two common performance metrics for a regression problem are mean absolute error or MAE and root mean squared error or RMSE. MAE is the average amount of error between the predicted values and the actual values. A lower MAE is better. The best score would be 0 because that would mean the average difference between the predicted values and the actual values would be 0. RMSE is the average difference between predicted values and the actual values.  A lower score is better because a lower score would mean a lower difference. 
 
 :::
 
@@ -239,7 +240,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+The two common performance metrics when dealing with a classification problem are accuracy and ROC AUC. 
 
 :::
 
@@ -254,7 +255,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This would be 
 
 :::
 
@@ -263,7 +264,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This problem would be a prediction problem because they are looking to predict how likely a customer is going to drop the service in the next month. They are not just showing which relationships are important to whether the customer droped the service, they are predicting if in the future they will drop the service.
 
 :::
 
