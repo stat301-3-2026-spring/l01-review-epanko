@@ -46,7 +46,23 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-- 
+- Perform an EDA on the data and clean the dataset before the modeling process.
+
+- You then inspect the target variable to ensure that the split is not overly unbalanced or that the target variable is skewed.
+
+- You then split the data into a training and test dataset stratifying for the target variable.
+
+- You can then split the data on folds using resampling.
+
+- You then make the recipe for the model including variations for tree models if needed. You also prep and bake the recipe to look for errors and ensure that the recipe will run.
+
+- You then tune and fit the models. You can start by fitting a baseline model. For models with tuning parameters, you make the tuning grid and set ranges for the tuning parameters. After you set the tuning grid, you can fit the models on the folds or training data.
+
+- You then analyze the models on the appropriate performance metric and analyse the tuning performance. You then pick the best model based on performance.
+
+- You then take the best model and train and fit it to the full training data set.
+
+- You then analyse the final model and make predictions testing the model on the testing data. You then use this information to evaluate the model's performance.
 
 :::
 
@@ -57,13 +73,13 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Whether you have a target variable. 
+The difference between supervised and unsupervised learning is whether you have a target variable. 
 
-- In unsupervised you do not have a target variable you just have a lot of variables and want to know information from the data as a whole. You do not have a target variable that supervises the data. 
+- In unsupervised you do not have a target variable you just have a lot of variables and want to know information from the data as a whole. You do not have a target variable that supervises the data. The key of unsupervised learning is identifying patterns and relationships in the data overall across many variables, not just looking at the effect on a target variable.
 
-- In supervises you are supervising the data using outcome variables that is supervising the data. you have a reason for picking a specific model
+- In supervised you are supervising the data using outcome variables. Instead of looking at relationships generally, the algorithms are trained to specifically look at relationships with the target variable. In supervised learning you have a reason for picking a specific model becuase you can see how it performs when predicting the target variables.
 
-One has a target variable. We are trying to predict something. Unsupervised data can be taken and put into supervised process.
+
 
 :::
 
@@ -76,7 +92,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-- trying to understand the data. We are using a form to show linear non linear. Describes relationships in the data through modeling. Linear models are used a lot. Parametric models are good at this. Summarize with a single value. 
+- Descriptive models main goal is trying to understand the data. Descriptive models main goal is to investigate patterns and trends in the data and explain what is happening in the data. They are used to show if relationships are linear or non linear. These models describe relationships in the data through modeling. For descriptive models, linear models are used a lot. Parametric models are also mostly used in descriptive models. The data is summarized into a single value a lot in descriptive models.
 
 :::
 
@@ -85,7 +101,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-- explain the how and the why of a relationship. Want to infer if a variable is statistically related to the target variable. Want to see if what we are seeing can generalize or point to a causal relationship. Want to know if something works. Want to know what inputs effect the outcome. Parametric models good at this. 
+The goal of inferential models is to explain the how and the why of a relationship. Inferential models want to infer if a variable in a dataset is statistically related to a target variable. In inferential models the goal is to see if the relationship seen can be generalized or point to a causal relationship. Inferential models want to understand relationships. The models want to know what inputs effect the outcome variable. Parametric models are good for differential models. 
 
 :::
 
@@ -94,7 +110,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-- Want to predict our target the best we can. We do not care how we make the prediction. We cannot make a theory for why when we put these things in they make the best model. We just put everything in to try and get the best model. Good for when we do not care how we got prediction just want a good prediciton. 
+The goal of predictive models want to predict our target the best we can. In predictive models, we do not care how we make the prediction. The goal is not to make a theory for why when we put these things in they make the best model, it is just to make the model that produces the best prediction. In these models, we just put the variables in to try and get the best model. This model is good for when we just need a good prediction and we don't care how we get the prediction. 
 
 :::
 
