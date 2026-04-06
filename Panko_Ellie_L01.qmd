@@ -125,7 +125,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Explainable models. Laden with assumptions. not done by data, done by assumptions. Parametric informed. Can be helpful. reduces data needed. 
+Mechanistic models are models that are driven by fundamental knowledge such as key mathematical theorems. Mechanistic models are models that are explainable by science and math. The models are made using assumptions based off of science, math, and underlying principals, not directly driven by the data. These models are parametrically informed. Can be helpful. Since these models are math and science based, they require less data to make a good prediction. 
 
 :::
 
@@ -136,7 +136,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Data driven models. More flexible models. Do not add much for assumptions we let the data make the choices.
+Empirically driven models are data driven models. These models are more flexible models as they adhere to the data not a formula. These models do not rely on assumptions, they let the data make the choices. These models come from real world observed data not math principals.
 
 :::
 
@@ -147,7 +147,9 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+- Mechanistic models are typically parametric models because the models because when using math and science principals to make your models they are often more fixed models, or models that use fixed equations and physics theorems to make predictions. Fixed models are parametric models, so, most mechanistic models are parametric models. 
+
+- Empirical models are typically nonparametric models because both empirical models and nonparametric models are data driven models. These models both do not make assumptions about the data as they models are shaped by the observations themselves. 
 
 :::
 
@@ -158,7 +160,9 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models are generally easier to interpret as they are based in known fixed principals. The models are generally made using known formulas, making it easier to interpret the results as the formula is the same every time and means the same thing every time. 
+
+An empirically driven model is more difficult to interpret becuase it is made directly using the data. An empirical model will be interpreted differently every time depending on what are data is and what are target variable is, making it more difficult.
 
 :::
 
@@ -169,7 +173,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models are less flexible and more fixed than empirically driven models. Mechanistic models use formulas and underlying principals to make their predictions, so, the model is fixed to the equation and will only make predictions in one way. On the other hand, the emperically driven model will make predictions differenly each time, depending on the data itself. This makes it the more flexible model.
 
 :::
 
@@ -180,7 +184,9 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models are at a risk of underfitting to the data because they are are high bias and low variance. They are biased because the data will be fit to whatever equation the mechanistic model is using but it will have low variance because it is using the same mechanism each time. Since the data is fit to the equation, it may not capture the real life trend.
+
+Empirically driven models are prone to overfitting, showing the other side of the tradeoff. They are low bias but high variance. They are low biased because the model is made directly from the data so it is not biased to its method. It does have a lot of variance, however, because the model is fit to the data. This leads to a fear of overfitting the model to the data.
 
 :::
 
@@ -214,7 +220,10 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 ::: {.callout-tip icon="false"}
 ## Solution
 
-battling overfitting. 
+V-fold cross validation is used to battle overfitting. It works by splitting your data into v equal folds where on each fold, the model is trained on v-1 folds, leaving one fold for assessment and evaluation. The RMSE performance is averaged across the folds to give one estimate. This process is then repeated however many times we specify and the averaged RMSE value from each repeat is put together and averaged to get the final RMSE assessment of the model.
+
+We use v-fold cross validation to get a better estimate that actually represents our data. The more spits we do of our data the less chance we have that our model will be over fit to the training data. It also stabilizes the estimate as we are averaging across the folds. The v-fold cross validation gives a better estimate to how our models will actually perform on new data.
+
 
 :::
 
